@@ -27,7 +27,7 @@ const metadata: Metadata = {
     images: ['https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/a-flat-cartoon-portrait-of-an-anthropomo-1759132788818-b4073fda.jpg']
   },
   robots: { index: true, follow: true },
-  icons: { icon: '/favicon.ico' }
+  icons: { url: '/favicon.ico' }
 };
 
 export const metadata = metadata;
