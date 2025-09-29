@@ -30,7 +30,7 @@ const metadata: Metadata = {
   icons: { icon: '/favicon.ico' }
 };
 
-export const metadata;
+export const metadata = metadata;
 
 export default function RootLayout({ children }: { children: React.ReactNode; }) {
   return (
