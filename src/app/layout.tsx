@@ -32,7 +32,7 @@ const metadata: Metadata = {
 
 export const metadata = metadata;
 
-export default function RootLayout({ children }: { children: React.ReactNode; }) {
+export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className='antialiased'>
